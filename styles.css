@@ -1,0 +1,113 @@
+/* Estilos básicos */
+body {
+    background-color: #0d0d0d; /* Fundo escuro estilo dark mode */
+    color: #e0e0e0; /* Texto branco suave */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #eeeeee; /* Branco mais suave */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #c4c6c8; /* Branco claro */
+    margin-top: 20px;
+    font-size: 1.5em;
+    border-bottom: 1px solid #333333; /* Linha sutil abaixo do título */
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #a9a9a9; /* Branco ainda mais suave */
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-style: italic; /* Destaque leve */
+}
+
+/* Links */
+a.link {
+    color: #ffffff; /* Branco para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.link:hover {
+    text-decoration: underline;
+    color: #4682B4; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Parágrafos */
+p {
+    margin: 10px 0;
+    color: #dcdcdc;
+    line-height: 1.8; /* Aumenta a legibilidade */
+}
+
+/* Imagens */
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+/* Caixas de código */
+.code-box {
+    background-color: #0d1017; /* Fundo mais escuro para contraste */
+    color: #dcdcdc;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    position: relative;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona profundidade */
+}
+
+.code-box code {
+    display: block;
+    white-space: pre-wrap; /* Permite quebra de linha */
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+}
+
+/* Botão de copiar */
+.copy-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #ffffff; /* Botão branco */
+    color: #1c1c1c; /* Texto escuro */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.copy-btn:hover {
+    background-color: #f0f0f0; /* Tom mais claro ao passar o mouse */
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.copy-btn:active {
+    background-color: #dcdcdc; /* Botão ao ser clicado */
+    transform: scale(1); /* Retorna ao tamanho normal */
+  }
